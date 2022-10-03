@@ -1,4 +1,4 @@
-# Alan García Juste
+# Alan García Justel
 #
 # Este es un script para encontrar la imagen que contiene el mensaje oculto
 # haciendo uso de la herramienta Stegosuite.
