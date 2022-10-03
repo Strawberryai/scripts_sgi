@@ -1,3 +1,6 @@
+# Alan García Justel
+# Script para descifrar un mensaje a través de análisis de frecuencias
+
 from collections import Counter
 diccionario = {}
 sustituciones = [('X', 'e'), ('A', 'd'), ('T', 'l'), ('J', 'n'), ('I', 'o'),

@@ -9,5 +9,11 @@ Informática.
 <details open>
 <summary>findFileHash.py</summary>
 <br>
-Documentación del script xd.
+Documentación del script.
+</details>
+
+<details open>
+<summary>decript_frecuencies.py</summary>
+<br>
+Documentación del script.
 </details>
