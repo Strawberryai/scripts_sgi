@@ -28,6 +28,7 @@
 #
 # Instrucción cron (crontab -e): 
 # 0 12 * * * bash /var/tmp/Backups/backup_cron.bash
+#
 
 BACKUP_DIR="/var/tmp/Backups/"
 COPY_DIR="/home/ag6154lk/Seguridad/"
@@ -48,6 +49,7 @@ function make_backup(){
     [ ! -d "$prev" ] && mkdir $prev
 
     rsync -av --link-dest=$prev $COPY_DIR $curr
+    # sudo rsync -av --compare-dest=$destino ./origen/ $copia_completa 
 }
 
 echo "Creating backup of "$COPY_DIR
