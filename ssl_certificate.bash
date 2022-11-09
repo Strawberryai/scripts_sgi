@@ -19,15 +19,7 @@
 # DE ACCIONES EN EL SOFTWARE.
 #
 #
-# Este es un script que se encarga de automatizar la creación de backups
-# incrementales. Es ejecutado como una tarea de cron cada día a las 12 pm.
-#
-# Creamos una carpeta con la fecha actual y usamos la del día anterior como
-# link-dest. En caso de que no exista copia del día anterior creamos la carpeta
-# vacía.
-#
-# Instrucción cron (crontab -e): 
-# 0 12 * * * bash /var/tmp/Backups/backup_cron.bash
+# ssh-keygen -t ed25519 -C "your_email@example.com"
 #
 
 DOMAIN="muffin"
