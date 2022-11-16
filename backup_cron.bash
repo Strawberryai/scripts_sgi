@@ -26,6 +26,8 @@
 # link-dest. En caso de que no exista copia del día anterior creamos la carpeta
 # vacía.
 #
+# rsync -av --link-dest=../CopiaCompleta . ag6154lk@muffin.ddns.net:/var/tmp/BackupRemotoAlan/Incremental1
+#
 # Instrucción cron (crontab -e): 
 # 0 12 * * * bash /var/tmp/Backups/backup_cron.bash
 #
